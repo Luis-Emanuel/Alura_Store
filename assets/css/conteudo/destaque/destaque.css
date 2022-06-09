@@ -1,0 +1,48 @@
+.destaques{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: calc(100vh - 50px);
+    gap: 0.2rem; ;
+}
+.destaques__titulo{
+    background-color: rgba(0, 0, 0, .5);
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+.caixa{
+    align-items: flex-end;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+}
+.destaques__principal{
+    background: url(../../../img/fortnite.jpg) center / cover no-repeat;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
+.destaques__secundario:nth-child(2){
+    background: url(../../../img/pubg.jpg) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+}
+.destaques__secundario:nth-child(3){
+    background: url(../../../img/slack.png) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+}
+.destaques__secundario:nth-child(4){
+    background: url(../../../img/whatsapp.png) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+}
+.destaques__secundario:nth-child(5){
+    background: url(../../../img/cs-go.jpg) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}
+.destaques__categorias{ 
+    grid-row: 3 / 3;
+}

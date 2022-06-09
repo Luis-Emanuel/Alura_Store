@@ -1,0 +1,23 @@
+.populares__card___corpo{
+    display: grid;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo";
+    grid-template-rows: 50px auto;
+    row-gap: .5rem;
+    padding: .75rem;
+}
+.populares__card___titulo{
+    color: #333333;
+    font-size: 1.3rem;
+}
+.populares__card___data{
+    color: #808080;
+    font-size: .9rem;
+}
+.populares__card___descricao{
+    color: #333333;
+    text-align:justify ;
+    line-height: 1.5rem;
+    margin: 1rem 0px;
+}
