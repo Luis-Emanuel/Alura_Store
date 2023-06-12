@@ -22,6 +22,7 @@
 
     
 ## 🔨 Funcionalidades do projeto
+Uma loja de aplicativos simples que mostra uma lista de apps e jogos. Teve como objetivo a aplicação do display flex e grid para organizar elementos em toda a página para expor os produtos disponíveis na loja 
 
 <p align="justify"></p>
 
