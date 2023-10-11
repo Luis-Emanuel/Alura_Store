@@ -28,7 +28,7 @@ Uma loja de aplicativos simples que mostra uma lista de apps e jogos. Teve como 
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final do curso em funcionamento](https://alura-strore-2yssjoef7-luis-emanuel.vercel.app/).
+[Veja o projeto final do curso em funcionamento](https://alura-store-nt.vercel.app/).
 
 ## 📷FOTOS DO PROJETO
 <div align="center">
